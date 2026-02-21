@@ -1,14 +1,15 @@
-var express = require('express');
+const express = require('express');
 const fs = require('fs').promises;
 const path = require('path');
 
-var config = require('./config.json');
+const config = require('./config.json');
 
-let fileDir = path.resolve(config.directory || '.');
-let port = config.port || 3000;
-let refreshRate = config.refreshRate || 5000;
+const fileDir = path.resolve(config.directory || '.');
+const port = config.port || 3000;
+const refreshRate = config.refreshRate || 5000;
+const recentFilesCount = config.recentFilesCount || 20;
 
-var app = express();
+let app = express();
 
 app.get('/files', async (req, res) => {
     let files = [];
@@ -17,7 +18,7 @@ app.get('/files', async (req, res) => {
         files = entries
             .filter(e => e.isFile() && e.name.toLowerCase().endsWith('.json'))
             .sort((a, b) => b.name.localeCompare(a.name))
-            .slice(0, 20) // limit to 20 most recent files
+            .slice(0, recentFilesCount)
             .map(e => e.name.substring(0, e.name.length - 5)); // remove .json extension
     } catch (err) {
       console.error('Failed to list JSON files:', err.message);

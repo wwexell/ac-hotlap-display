@@ -1,5 +1,6 @@
 {
     "directory": "C:/Users/Bob/AppData/Local/AcTools Content Manager/Progress/Sessions",
-    "port": 3000,
-    "refreshRate": 5000
+    "port": 8080,
+    "refreshRate": 5000,
+    "recentFilesCount": 20
 }
