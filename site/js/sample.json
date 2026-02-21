@@ -1,0 +1,213 @@
+{
+    "track": "mugello",
+    "number_of_sessions": 1,
+    "players": [
+        {
+            "name": "wwexell",
+            "car": "ferrari_f40_s3",
+            "skin": "01_yellow"
+        }
+    ],
+    "sessions": [
+        {
+            "event": 0,
+            "name": "Hotlap",
+            "type": 4,
+            "lapsCount": 0,
+            "duration": 30,
+            "laps": [
+                {
+                    "lap": 0,
+                    "car": 0,
+                    "sectors": [
+                        31117,
+                        42322,
+                        62699
+                    ],
+                    "time": -1,
+                    "cuts": 1,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 1,
+                    "car": 0,
+                    "sectors": [
+                        31289,
+                        41986,
+                        57185
+                    ],
+                    "time": 130460,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 2,
+                    "car": 0,
+                    "sectors": [
+                        31417,
+                        41099,
+                        58545
+                    ],
+                    "time": 131061,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 3,
+                    "car": 0,
+                    "sectors": [
+                        29925,
+                        40774,
+                        57488
+                    ],
+                    "time": 128187,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 4,
+                    "car": 0,
+                    "sectors": [
+                        30122,
+                        42188,
+                        56443
+                    ],
+                    "time": 128753,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 5,
+                    "car": 0,
+                    "sectors": [
+                        36426,
+                        40216,
+                        56956
+                    ],
+                    "time": -1,
+                    "cuts": 2,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 6,
+                    "car": 0,
+                    "sectors": [
+                        67331,
+                        40995,
+                        56732
+                    ],
+                    "time": -1,
+                    "cuts": 2,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 7,
+                    "car": 0,
+                    "sectors": [
+                        30488,
+                        41004,
+                        58086
+                    ],
+                    "time": -1,
+                    "cuts": 1,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 8,
+                    "car": 0,
+                    "sectors": [
+                        30936,
+                        40850,
+                        57465
+                    ],
+                    "time": 129251,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 9,
+                    "car": 0,
+                    "sectors": [
+                        30549,
+                        41089,
+                        56520
+                    ],
+                    "time": 128158,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 10,
+                    "car": 0,
+                    "sectors": [
+                        30506,
+                        40991,
+                        57353
+                    ],
+                    "time": 128850,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 11,
+                    "car": 0,
+                    "sectors": [
+                        30248,
+                        40960,
+                        57032
+                    ],
+                    "time": 128240,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 12,
+                    "car": 0,
+                    "sectors": [
+                        30125,
+                        40284,
+                        56480
+                    ],
+                    "time": 126889,
+                    "cuts": 0,
+                    "tyre": "H"
+                },
+                {
+                    "lap": 13,
+                    "car": 0,
+                    "sectors": [
+                        30300,
+                        39824,
+                        55467
+                    ],
+                    "time": 125591,
+                    "cuts": 0,
+                    "tyre": "H"
+                }
+            ],
+            "lapstotal": [
+                14
+            ],
+            "bestLaps": [
+                {
+                    "car": 0,
+                    "time": 125591,
+                    "lap": 13
+                }
+            ]
+        }
+    ],
+    "extras": [
+        {
+            "name": "special_event",
+            "guid": "12",
+            "max": 3,
+            "tier": -1
+        },
+        {
+            "name": "bestlap",
+            "time": 125591
+        }
+    ],
+    "__raceIni": "[EVENT]\r\nNAME=Italy, 1987\r\nDESCRIPTION=Hotlap\r\n\r\n[SPECIAL_EVENT]\r\nGUID=12\r\n\r\n[CAR_0]\r\nMODEL=-\r\nSKIN=01_yellow\r\nDRIVER_NAME=wwexell\r\nNATIONALITY=Planet Earth\r\nSETUP=\r\nMODEL_CONFIG=\r\nNATION_CODE=PLA\r\n\r\n[RACE]\r\nTRACK=mugello\r\nCONFIG_TRACK=\r\nMODEL=ferrari_f40_s3\r\nCARS=1\r\nPENALTIES=1\r\nFIXED_SETUP=0\r\nMODEL_CONFIG=\r\nAI_CLASS=street\r\nSKIN=01_yellow\r\n\r\n[SESSION_0]\r\nNAME=Hotlap\r\nTYPE=4\r\nSPAWN_SET=HOTLAP_START\r\n\r\n[CONDITION_0]\r\nTYPE=time\r\nOBJECTIVE=123000\r\nACHIEVED=0\r\n\r\n[CONDITION_1]\r\nTYPE=time\r\nOBJECTIVE=121000\r\nACHIEVED=0\r\n\r\n[CONDITION_2]\r\nTYPE=time\r\nOBJECTIVE=120000\r\nACHIEVED=0\r\n\r\n[GHOST_CAR]\r\nRECORDING=0\r\nPLAYING=0\r\nSECONDS_ADVANTAGE=0\r\nLOAD=1\r\nFILE=\r\nENABLED=0\r\n\r\n[LIGHTING]\r\nSUN_ANGLE=16\r\nTIME_MULT=1\r\nCLOUD_SPEED=0.2\r\n__TRACK_GEOTAG_LAT=43.996\r\n__TRACK_GEOTAG_LONG=11.37167\r\n__TRACK_TIMEZONE_BASE_OFFSET=3600\r\n__TRACK_TIMEZONE_OFFSET=3600\r\n__TRACK_TIMEZONE_DTS=0\r\n\r\n[GROOVE]\r\nVIRTUAL_LAPS=10\r\nMAX_LAPS=1\r\nSTARTING_LAPS=1\r\n\r\n[TEMPERATURE]\r\nAMBIENT=22\r\nROAD=27\r\n\r\n[WEATHER]\r\nNAME=3_clear\r\n\r\n[DYNAMIC_TRACK]\r\nPRESET=5\r\nLAP_GAIN=1\r\nRANDOMNESS=0\r\nSESSION_START=100\r\nSESSION_TRANSFER=100\r\n\r\n[LAP_INVALIDATOR]\r\nALLOWED_TYRES_OUT=0\r\n\r\n"
+}
